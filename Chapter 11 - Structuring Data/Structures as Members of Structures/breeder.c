@@ -22,6 +22,8 @@ struct Hourse {
 
 int main() {
 	
+	Hourse dobbin;
 
+	dobbin.height = 14;
 
 }

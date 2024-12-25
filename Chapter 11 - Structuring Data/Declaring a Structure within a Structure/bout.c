@@ -42,6 +42,6 @@ int main() {
 	rocinante.age = 55;
 	rocinante.height = 13;
 
-
+	strcpy(rocinante.owner, "Quixote");
 
 }

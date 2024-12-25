@@ -26,4 +26,9 @@ int main() {
 
 	dobbin.height = 14;
 
+	dobbin.dob.day = 5;
+
+	dobbin.dob.month = 12;
+
+	dobbin.dob.year = 1962;
 }

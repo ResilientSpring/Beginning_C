@@ -1,3 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+
 struct Hourse {
 
 	struct Date {
@@ -15,8 +19,29 @@ struct Hourse {
 
 };
 
+// We can declare unnamed (anonymous) structures within another structure (or union).
+struct Hourse2 {
+
+	char owner[9];
+
+	// Anonymous struct
+	struct {
+
+		int age;
+		char height;
+
+	};
+
+};
+
+
 int main() {
 
-	
+	struct Hourse2 rocinante;
+
+	rocinante.age = 55;
+	rocinante.height = 13;
+
+
 
 }

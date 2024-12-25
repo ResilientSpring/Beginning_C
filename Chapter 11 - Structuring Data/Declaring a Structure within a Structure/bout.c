@@ -8,4 +8,9 @@ struct Hourse {
 
 	} dob;
 
+	int height;
+	char name[20];
+	char father[20];
+	char mother[20];
+
 };

@@ -11,7 +11,7 @@ typedef struct Date Date;
 typedef struct Hourse Hourse;
 
 struct Hourse {
-
+	 
 	Date dob;   // date of birth
 	int height;
 	char name[20];
@@ -19,3 +19,9 @@ struct Hourse {
 	char mother[20];
 
 };
+
+int main() {
+	
+
+
+}

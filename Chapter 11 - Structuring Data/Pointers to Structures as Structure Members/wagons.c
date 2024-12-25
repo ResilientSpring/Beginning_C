@@ -30,6 +30,13 @@ int main(void) {
 
 		printf_s("Do you want to enter details of a%s (Y or N)? \n", first != NULL ? "nother" : "");
 
+		scanf_s(" %c", &test, sizeof(test));
+
+		if (tolower(test) == 'n')
+			break;
+
+		// Allocate memory for a Horse structure.
+		current = (Horse*)malloc(sizeof(Horse));
 	}
 
 }

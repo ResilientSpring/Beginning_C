@@ -46,4 +46,5 @@ int main() {
 
 	printf("age: %d, height: %d, owner: %s.\n", rocinante.age, rocinante.height, rocinante.owner);
 
+	return 0;
 }

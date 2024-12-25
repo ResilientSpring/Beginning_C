@@ -44,6 +44,6 @@ int main() {
 
 	strcpy(rocinante.owner, "Quixote");
 
-	printf("age: %d, height: %d, owner: %s", rocinante.age, rocinante.height, rocinante.owner);
+	printf("age: %d, height: %d, owner: %s.\n", rocinante.age, rocinante.height, rocinante.owner);
 
 }

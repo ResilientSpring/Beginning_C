@@ -14,3 +14,9 @@ struct Hourse {
 	char mother[20];
 
 };
+
+int main() {
+
+
+
+}

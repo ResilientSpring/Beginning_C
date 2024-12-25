@@ -20,6 +20,16 @@ struct Horse {
 
 int main(void) {
 
+	Horse* first = NULL;
+	Horse* current = NULL;
+	Horse* previous = NULL;
 
+	char test = '\0';   // Test value for ending input.
+
+	for (;;) {
+
+		printf_s("Do you want to enter details of a%s (Y or N)? \n", first != NULL ? "nother" : "");
+
+	}
 
 }

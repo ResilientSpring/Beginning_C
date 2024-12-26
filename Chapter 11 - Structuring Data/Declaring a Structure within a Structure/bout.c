@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Hourse {
+struct Horse {
 
 	struct Date {
 

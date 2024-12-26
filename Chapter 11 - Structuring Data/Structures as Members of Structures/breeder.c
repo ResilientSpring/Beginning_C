@@ -8,9 +8,9 @@ struct Date {
 
 typedef struct Date Date;
 
-typedef struct Hourse Hourse;
+typedef struct Horse Hourse;
 
-struct Hourse {
+struct Horse {
 	 
 	Date dob;   // date of birth
 	int height;

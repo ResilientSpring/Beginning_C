@@ -20,7 +20,7 @@ struct Horse {
 };
 
 // We can declare unnamed (anonymous) structures within another structure (or union).
-struct Hourse2 {
+struct Horse2 {
 
 	char owner[9];
 
@@ -37,7 +37,7 @@ struct Hourse2 {
 
 int main() {
 
-	struct Hourse2 rocinante;
+	struct Horse2 rocinante;
 
 	rocinante.age = 55;
 	rocinante.height = 13;

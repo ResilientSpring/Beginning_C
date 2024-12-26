@@ -8,7 +8,7 @@ struct Date {
 
 typedef struct Date Date;
 
-typedef struct Horse Hourse;
+typedef struct Horse Horse;
 
 struct Horse {
 	 
@@ -22,7 +22,7 @@ struct Horse {
 
 int main() {
 	
-	Hourse dobbin;
+	Horse dobbin;
 
 	dobbin.height = 14;
 

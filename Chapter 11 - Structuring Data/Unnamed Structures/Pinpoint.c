@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 struct {
 
 	int age;
@@ -7,3 +10,11 @@ struct {
 	char mother[20];
 
 } my_horse;
+
+int main() {
+
+	my_horse.age = 11;
+	my_horse.height = 180;
+	
+
+}

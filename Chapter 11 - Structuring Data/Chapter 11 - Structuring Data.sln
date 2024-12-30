@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35425.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structures as Members of Structures", "Structures as Members of Structures\Structures as Members of Structures.vcxproj", "{60AFEA15-1816-436E-8444-499388243B79}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Declaring a Structure within a Structure", "Declaring a Structure within a Structure\Declaring a Structure within a Structure.vcxproj", "{42583610-F389-4B16-A0CF-896FD64EC15E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers to Structures as Structure Members", "Pointers to Structures as Structure Members\Pointers to Structures as Structure Members.vcxproj", "{9BA026A0-30CA-4C62-AC20-5B8C5AA07338}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unnamed Structures", "Unnamed Structures\Unnamed Structures.vcxproj", "{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,8 +43,19 @@ Global
 		{9BA026A0-30CA-4C62-AC20-5B8C5AA07338}.Release|x64.Build.0 = Release|x64
 		{9BA026A0-30CA-4C62-AC20-5B8C5AA07338}.Release|x86.ActiveCfg = Release|Win32
 		{9BA026A0-30CA-4C62-AC20-5B8C5AA07338}.Release|x86.Build.0 = Release|Win32
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Debug|x64.ActiveCfg = Debug|x64
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Debug|x64.Build.0 = Debug|x64
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Debug|x86.Build.0 = Debug|Win32
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Release|x64.ActiveCfg = Release|x64
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Release|x64.Build.0 = Release|x64
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Release|x86.ActiveCfg = Release|Win32
+		{F2BCC287-44E3-4BC3-9912-A4D140BB9AED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {920B3C6C-1307-4E2B-997E-7FB889040FC3}
 	EndGlobalSection
 EndGlobal

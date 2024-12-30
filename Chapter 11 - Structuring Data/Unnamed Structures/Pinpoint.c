@@ -15,6 +15,8 @@ int main() {
 
 	my_horse.age = 11;
 	my_horse.height = 180;
-	
+	strcpy(my_horse.name, "Felix");
+	strcpy(my_horse.father, "Daddy");
+	strcpy(my_horse.mother, "Mummy");
 
 }
